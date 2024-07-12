@@ -1,0 +1,8 @@
+# 第一次安装并使用：
+conda create -n gee python=3.8
+conda activate gee
+pip install geemap
+jupyter notebook
+# 后续使用（确保在gee环境下运行程序）
+conda activate gee
+jupyter notebook
